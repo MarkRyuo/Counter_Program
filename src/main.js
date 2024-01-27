@@ -5,6 +5,8 @@
 
 let numberLabel = 0 ;
 
+window.alert("Lets Play a Boring Game!")
+
 // Todo Increase
 document.getElementById("increaseLabel").onclick = function () {
 
