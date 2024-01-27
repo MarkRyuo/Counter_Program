@@ -9,4 +9,5 @@ document.getElementById("increaseLabel").onclick = function () {
 
   numberlabel += 1 ;
   numberlabel = Number(numberlabel) ;
+  document.getElementById("numberLabel").innerHTML = numberLabel ;
 }
