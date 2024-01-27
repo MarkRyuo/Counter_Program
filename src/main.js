@@ -5,6 +5,7 @@
 
 let numberLabel = 0 ;
 
+// Todo Increase
 document.getElementById("increaseLabel").onclick = function () {
 
   numberLabel += 1 ;
