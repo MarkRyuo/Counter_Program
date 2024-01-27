@@ -7,7 +7,8 @@ let numberLabel = 0 ;
 
 document.getElementById("increaseLabel").onclick = function () {
 
-  numberlabel += 1 ;
-  numberlabel = Number(numberlabel) ;
+  numberLabel += 1 ;
+  numberLabel = Number(numberLabel) ;
   document.getElementById("numberLabel").innerHTML = numberLabel ;
+
 }
