@@ -12,3 +12,18 @@ document.getElementById("increaseLabel").onclick = function () {
   document.getElementById("numberLabel").innerHTML = numberLabel ;
 
 }
+// Todo Reset
+document.getElementById("increaseLabel").onclick = function () {
+
+  numberLabel += 1 ;
+  numberLabel = Number(numberLabel) ;
+  document.getElementById("numberLabel").innerHTML = numberLabel ;
+
+}
+document.getElementById("increaseLabel").onclick = function () {
+
+  numberLabel += 1 ;
+  numberLabel = Number(numberLabel) ;
+  document.getElementById("numberLabel").innerHTML = numberLabel ;
+
+}
