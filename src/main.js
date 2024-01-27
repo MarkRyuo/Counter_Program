@@ -21,6 +21,7 @@ document.getElementById("increaseLabel").onclick = function () {
   document.getElementById("numberLabel").innerHTML = numberLabel ;
 
 }
+// Todo Decrease
 document.getElementById("increaseLabel").onclick = function () {
 
   numberLabel += 1 ;
