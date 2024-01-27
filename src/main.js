@@ -2,4 +2,4 @@
 // resetLabel 
 // decreaseLabel
 
-let 
+let numberLabel ;
