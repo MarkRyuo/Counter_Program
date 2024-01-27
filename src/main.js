@@ -14,17 +14,17 @@ document.getElementById("increaseLabel").onclick = function () {
 
 }
 // Todo Reset
-document.getElementById("increaseLabel").onclick = function () {
+document.getElementById("resetLabel").onclick = function () {
 
-  numberLabel += 1 ;
+  numberLabel = 0 ;
   numberLabel = Number(numberLabel) ;
   document.getElementById("numberLabel").innerHTML = numberLabel ;
 
 }
 // Todo Decrease
-document.getElementById("increaseLabel").onclick = function () {
+document.getElementById("decreaseLabel").onclick = function () {
 
-  numberLabel += 1 ;
+  numberLabel -= 1 ;
   numberLabel = Number(numberLabel) ;
   document.getElementById("numberLabel").innerHTML = numberLabel ;
 
